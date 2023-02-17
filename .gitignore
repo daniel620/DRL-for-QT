@@ -1,3 +1,5 @@
 # ignore docs and data folders
 docs/
-data/
+data/*.csv
+
+
