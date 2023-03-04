@@ -21,3 +21,19 @@ Strong fluctuations can be observed in 2015
 #### MACD
 Moving Average Convergence / Divergence
 ![SSE_MACD](data/SSE_MACD.png)
+
+## Timing Strategies
+
+### Reinforcement Learning 
+(not the deep methods)
+
+#### Hidden Markov Model (HMM)
+- Hidden states mining (using SSE data ranging from **2010 to 2020**)
+    - ![](result/SSE_HiddenStates_2010_2020.png)
+    - ![](result/SSE_HiddenStates1_2010_2020.png)
+        - Choose states 1, 4 as **BUY** signals
+        - Choose states 3, 5 as **SELL** signals
+- Model measurement (using SSE data ranging from **2021 to 2023**)
+    - The latest (updated to 2023-03-03) annualized risk-free rate of return for the **two-year and five-year** periods in China is **2.46% and 2.74%**, respectively
+    - The model outperfroms risk-free return by 70%
+    - ![](result/SEE_RL_HMM_Result.png)
