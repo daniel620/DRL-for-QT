@@ -36,4 +36,4 @@ Moving Average Convergence / Divergence
 - Model measurement (using SSE data ranging from **2021 to 2023**)
     - The latest (updated to 2023-03-03) annualized [risk-free rate of return](https://data.eastmoney.com/cjsj/zmgzsyl.html) for the **two-year and five-year** periods in China is **2.46% and 2.74%**, respectively
     - The model outperfroms risk-free return by 70%
-    - ![](result/SEE_RL_HMM_Result.png)
+    - ![](result/SEE_RL_HMM_Result.png) 

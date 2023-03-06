@@ -1,5 +1,10 @@
 # ignore docs and data folders
 docs/
-data/*.csv
+data/*
 
-
+DRL_FinRL_model/datasets/*
+DRL_FinRL_model/results/*
+DRL_FinRL_model/trained_models/*
+DRL_FinRL_model/tensorboard_log/a2c/*
+DRL_FinRL_model/tensorboard_log/ddpg/*
+DRL_FinRL_model/tensorboard_log/ppo/*
