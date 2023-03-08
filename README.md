@@ -1,5 +1,21 @@
 # DRL for QT
 
+## Introduction
+
+- Design and apply (deep and not) reinforcement learning methods for quantitative trading in China's A-share marktet.
+- Methods or strategies:
+
+  - HMM
+  - DDPG
+  - A2C
+  - PPO
+  - P/B ROE
+- Datasets:
+
+  - Stocks in SSE
+  - SSE and SSE 50 index
+  - ...
+
 ## Datasets
 
 ### SSE: Shanghai Stock Exchange
@@ -73,13 +89,12 @@ The data of the single stock that we will be using for this case study is obtain
 ![](DRL_FinRL_model/outputs/SSE50IndexStock0308/backtest_plot.png)
 
 - Data analysis
-    - Similar trends can be observed in datasets and the benmark (SSE 50 index),   
-        - indicaties that the 12 stocks selected are **representative**
-        - also illustrates the overall trend of **convergence changes** in the stock market
-        
+  - Similar trends can be observed in datasets and the benmark (SSE 50 index),
+    - indicaties that the 12 stocks selected are **representative**
+    - also illustrates the overall trend of **convergence changes** in the stock market
+
 ![](DRL_FinRL_model/outputs/SSE50IndexStock0308/SSE50Index.png)
 ![](DRL_FinRL_model/outputs/SSE50IndexStock0308/WtdAvgPri_12.png)
-
 
 #### Technical indicators
 
