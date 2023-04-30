@@ -8,3 +8,11 @@ DRL_FinRL_model/trained_models/*
 DRL_FinRL_model/tensorboard_log/a2c/*
 DRL_FinRL_model/tensorboard_log/ddpg/*
 DRL_FinRL_model/tensorboard_log/ppo/*
+
+
+**/results/*
+**/tensorboard_log/*
+**/trained_models/*
+
+
+
