@@ -10,7 +10,7 @@ DRL_FinRL_model/tensorboard_log/ddpg/*
 DRL_FinRL_model/tensorboard_log/ppo/*
 
 
-**/results/*
+# **/results/*
 **/tensorboard_log/*
 **/trained_models/*
 
